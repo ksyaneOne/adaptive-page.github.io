@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .top-menu li {
+    font: 12px 'Oswald', sans-serif;
+    padding: 10px 20px; }
+
+  .about {
+    font-size: 25px; }
+
+  .aside-menu ul li {
+    font-size: 10px;
+    white-space: nowrap; }
+
+  .team {
+    text-align: center; }
+    .team figure {
+      width: 24.75%; }
+      .team figure img {
+        height: 120px;
+        width: 120px; }
+
+  .social-networks img {
+    margin: 0; }
+  .social-networks .icons {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  nav .top-menu li {
+    float: none;
+    width: 100%;
+    text-align: left; }
+
+  .top-menu {
+    display: none; }
+
+  form[name="search"] {
+    display: none; }
+
+  .logo {
+    text-align: center;
+    margin-top: -20px; }
+
+  .about {
+    margin-top: -15px;
+    max-height: 30px; }
+    .about span {
+      font-size: 32px;
+      line-height: 25px; }
+
+  nav .top-menu {
+    margin-top: -25px;
+    position: absolute;
+    z-index: 100; }
+
+  .aside-menu {
+    display: none; }
+
+  .team {
+    text-align: center; }
+    .team figure {
+      float: left;
+      width: 25%; }
+
+  .social-networks img {
+    margin: 0; }
+  .social-networks .icons {
+    height: 100%;
+    width: 100%;
+    text-align: justify; } }
+@media only screen and (max-width: 744px) {
+  .twitter-feed {
+    display: none; }
+
+  .footer-logo,
+  .social-networks,
+  .site-map {
+    width: 33.333%;
+    text-align: center; }
+
+  .social-networks .icons {
+    text-align: center; }
+    .social-networks .icons img {
+      margin: 5px; } }
+@media only screen and (max-width: 550px) {
+  .site-map {
+    display: none; }
+
+  .social-networks,
+  .footer-logo {
+    width: 50%; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  form[name="search"] {
+    white-space: nowrap;
+    float: right; }
+
+  nav .top-menu {
+    margin-top: -100px;
+    position: absolute;
+    z-index: 100; }
+
+  nav .top-menu li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    z-index: 100; }
+
+  .nav-min {
+    margin-top: 10px; }
+
+  .lorem-ipsum blackquote {
+    font-size: 24px; }
+  .lorem-ipsum cite {
+    font-size: 15px; }
+
+  .team figure {
+    width: 33.333%; }
+
+  .figures .figure-1 img {
+    height: 150px; }
+  .figures .figure-2 img {
+    height: 150px; }
+
+  .social-networks,
+  .site-map,
+  .footer-logo {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; }
+    .social-networks img,
+    .site-map img,
+    .footer-logo img {
+      margin: 0; }
+    .social-networks .icons,
+    .site-map .icons,
+    .footer-logo .icons {
+      height: 100%;
+      width: 100%; }
+
+  footer {
+    height: 360px;
+    text-align: center; }
+
+  .footer-logo {
+    border-top: 1px solid #b4aeae; }
+
+  .malfoy {
+    display: none; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  nav .top-menu li {
+    float: none;
+    width: 100%;
+    text-align: left; }
+
+  .team figure {
+    width: 50%; }
+    .team figure img {
+      height: 96px;
+      width: 96px; } }
+nav .top-menu {
+  margin-top: -20px; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .top-menu {
+    display: block !important; } }
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
